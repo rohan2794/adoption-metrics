@@ -1,0 +1,25 @@
+metrics:
+  pull_count_jiva:
+    api: "https://hub.docker.com/v2/repositories/openebs/jiva"
+    type: gauge
+    description: "docker pull count of jiva"
+    labels: ["jiva"]
+    value: sessions
+  pull_count_ndm_amd64:
+    api: "https://hub.docker.com/v2/repositories/openebs/node-disk-manager-amd64/"
+    type: gauge
+    description: "docker pull count of ndm-amd64"
+    labels: ["ndmAmd64"]
+    value: sessions
+  pull_count_cstor:
+    api: "https://hub.docker.com/v2/repositories/openebs/cstor-istgt/"
+    type: gauge
+    description: "docker pull count of cstor"
+    labels: ["cstor"]
+    value: sessions
+  pull_count_m_apiserver:
+    api: "https://hub.docker.com/v2/repositories/openebs/m-apiserver/"
+    type: gauge
+    description: "docker pull count of m-apiserver"
+    labels: ["mApiserver"]
+    value: sessions
